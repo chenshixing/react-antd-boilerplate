@@ -122,7 +122,7 @@ import State from './someState';
 
 export default class Item extends React.Component {
     constructor () {
-        super();
+        super(props);
         //注意1：这里设置从State获取组件初始state
         this.state = State.bind(this).getState();
     }
@@ -135,7 +135,7 @@ export default class Item extends React.Component {
             productID: this.props.location.query.id
           }
         }, this.props).then(res => {
-          //注意1：这里用State的setState方法，不然没法让State全局更新它的state
+          //注意2：这里用State的setState方法改变组件state，即用restate管理state，并保持全局更新
           State.setState({
             data: res.DicData
           });
