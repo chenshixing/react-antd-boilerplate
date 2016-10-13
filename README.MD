@@ -4,10 +4,12 @@ React + Antd 前端项目模板（支持IE8+）
 
 # Quick Start
 
-## 安装项目
+克隆项目后，在根目录打开 cmd
+
+## 安装依赖
 
 ```
-npm i（推荐用淘宝NPM："cnpm i"）
+npm i（推荐用淘宝CNPM："cnpm i"）
 ```
 
 ## 启动项目
