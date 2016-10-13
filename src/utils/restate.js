@@ -121,7 +121,7 @@ export default restate.createState(ItemState)
 import State from './someState';
 
 export default class Item extends React.Component {
-    constructor () {
+    constructor (props) {
         super(props);
         //注意1：这里设置从State获取组件初始state
         this.state = State.bind(this).getState();
