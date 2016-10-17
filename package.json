@@ -13,7 +13,7 @@
   "author": "frontui",
   "license": "ISC",
   "dependencies": {
-    "antd": "^2.0.0",
+    "antd": "^1.11.2",
     "classnames": "^2.2.5",
     "console-polyfill": "^0.2.3",
     "core-js": "^2.4.1",

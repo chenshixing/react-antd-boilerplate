@@ -74,3 +74,7 @@ tests                               # 其他测试文件
 package.json                        
 README.MD
 ```
+
+# 注意事项
+
+Antd 用的1.x版本（兼容IE8），用法请查看1.x API文档：http://192.168.8.160:2000/components/button/
