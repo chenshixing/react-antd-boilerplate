@@ -10,3 +10,4 @@ require('console-polyfill'); // fix console
 // require('object-assign');
 require('core-js/es6/object'); // fix Object.assign
 require('es6-promise').polyfill(); // fix Promise
+require('fetch-ie8');// fix fetch

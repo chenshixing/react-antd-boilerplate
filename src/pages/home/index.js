@@ -20,9 +20,12 @@ export default class Home extends React.Component {
     message.info('您选择的日期是: ' + date.toString());
     this.setState({ date });
   }
+  test() {
+    fetch('/api/aa').then(res=> res.json()).then(res => {alert(JSON.stringify(res));})
+  }
   render() {
     return (
-      <div style={{ width: 400, margin: '100px auto' }}>
+      <div style={{ width: 400, margin: '100px auto' }} onClick={this.test.bind(this)}>
         <DatePicker onChange={value => this.handleChange(value)} />
         <div style={{ marginTop: 20 }}>当前日期：{this.state.date.toString()}</div>
       </div>
