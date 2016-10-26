@@ -79,4 +79,4 @@ README.MD
 
 - Antd 用的是 1.x 版本（兼容IE8），用法请查看 [1.x API 文档](http://192.168.8.160:2000/components/button/)
 - 安装 cnpm：```npm install -g cnpm --registry=https://registry.npm.taobao.org```
-- cmd 删除 node_modules 文件夹： ```rd /s/q node_modules```
+- 删除 node_modules 文件夹： ```rd /s/q node_modules```
